@@ -8,22 +8,35 @@ public class LiskovSubstitutionPrincipleExample {
     }
 
     public class Car extends Vehicle {
-        int getSpeed() {}
-        int getCubicCapacity() {}
-        boolean sHatchBack() {}
+        int getSpeed() {
+            return 1;
+        }
+        int getCubicCapacity() {
+            return 2;
+        }
+        boolean sHatchBack() {
+            return true;
+        }
     }
 
     public class Bus extends Vehicle {
-        int getSpeed() {}
-        int getCubicCapacity() {}
-        String getEmergencyExitLoc() {}
+        int getSpeed() {
+            return 2;
+        }
+        int getCubicCapacity() {
+            return 3;
+        }
+        String getEmergencyExitLoc() {
+            return "yes";
+        }
     }
 
 
     public static void main(String[] args) {
-        Vehicle vehicle = new Bus();
-        vehicle.getSpeed();
-        vehicle = new Car();
-        vehicle.getCubicCapacity();
+        // its implementation of liskov substitution principle
+//        Vehicle vehicle = new Bus();
+//        vehicle.getSpeed();
+//        vehicle = new Car();
+//        vehicle.getCubicCapacity();
     }
 }
