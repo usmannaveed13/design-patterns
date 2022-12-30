@@ -1,4 +1,4 @@
-package abstractFactoryMethod;
+package creationalPatterns.abstractFactoryMethod;
 
 interface Color {
     void fill();

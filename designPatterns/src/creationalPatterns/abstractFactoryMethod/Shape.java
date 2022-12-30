@@ -1,4 +1,4 @@
-package abstractFactoryMethod;
+package creationalPatterns.abstractFactoryMethod;
 
 interface Shape {
     void draw();

@@ -1,4 +1,4 @@
-package abstractFactoryMethod;
+package creationalPatterns.abstractFactoryMethod;
 
 public class FactoryProducer {
     public static AbstractFactory getFactory(String choice) {

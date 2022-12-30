@@ -1,4 +1,4 @@
-package factoryMethod.factoryAbstractCreatorExample;
+package creationalPatterns.factoryMethod.factoryAbstractCreatorExample;
 
 public class FactoryAbstractCreatorExample {
     public static void main(String[] args) {

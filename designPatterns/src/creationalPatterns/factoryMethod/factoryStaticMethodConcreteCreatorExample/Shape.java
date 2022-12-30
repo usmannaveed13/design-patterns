@@ -1,4 +1,4 @@
-package factoryMethod.factoryConcreteCreatorExample;
+package creationalPatterns.factoryMethod.factoryStaticMethodConcreteCreatorExample;
 
 interface Shape {
     void draw();

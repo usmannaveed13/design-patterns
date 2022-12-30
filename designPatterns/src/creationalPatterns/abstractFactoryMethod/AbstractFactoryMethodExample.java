@@ -1,4 +1,4 @@
-package abstractFactoryMethod;
+package creationalPatterns.abstractFactoryMethod;
 
 
 public class AbstractFactoryMethodExample {

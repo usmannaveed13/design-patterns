@@ -1,4 +1,4 @@
-package factoryMethod.factoryConcreteCreatorExample;
+package creationalPatterns.factoryMethod.factoryConcreteCreatorExample;
 
 public class ShapeFactory {
 

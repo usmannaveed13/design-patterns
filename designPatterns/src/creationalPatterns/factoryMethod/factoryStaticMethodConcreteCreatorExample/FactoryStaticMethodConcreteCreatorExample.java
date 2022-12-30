@@ -1,4 +1,4 @@
-package factoryMethod.factoryStaticMethodConcreteCreatorExample;
+package creationalPatterns.factoryMethod.factoryStaticMethodConcreteCreatorExample;
 
 
 public class FactoryStaticMethodConcreteCreatorExample {
