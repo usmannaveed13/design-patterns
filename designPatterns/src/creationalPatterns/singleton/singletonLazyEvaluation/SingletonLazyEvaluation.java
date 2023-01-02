@@ -1,8 +1,8 @@
 package creationalPatterns.singleton.singletonLazyEvaluation;
 
-public class Singleton {
+public class SingletonLazyEvaluation {
     // the private reference to the one and only instance
-    private static Singleton uniqueInstance = null;
+    private static SingletonLazyEvaluation uniqueInstance = null;
 
     // an instance attribute
     private int data = 0;
@@ -13,12 +13,12 @@ public class Singleton {
      * No client can instantiate a Singleton Object
      */
 
-    private Singleton() {}
+    private SingletonLazyEvaluation() {}
 
-    public static Singleton getInstance()
+    public static SingletonLazyEvaluation getInstance()
     {
         if (uniqueInstance == null)
-            uniqueInstance = new Singleton();
+            uniqueInstance = new SingletonLazyEvaluation();
         return uniqueInstance;
     }
 

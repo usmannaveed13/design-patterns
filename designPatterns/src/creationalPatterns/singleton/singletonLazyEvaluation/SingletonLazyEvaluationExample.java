@@ -2,7 +2,7 @@ package creationalPatterns.singleton.singletonLazyEvaluation;
 
 public class SingletonLazyEvaluationExample {
     public static void main(String [] args) {
-        Singleton s = Singleton.getInstance();
+        SingletonLazyEvaluation s = SingletonLazyEvaluation.getInstance();
         // set the data value
         s.setData(55);
         System.out.println("First reference: " + s);
@@ -12,7 +12,7 @@ public class SingletonLazyEvaluationExample {
         // Is it the same object?
 
         s = null;
-        s = Singleton.getInstance();
+        s = SingletonLazyEvaluation.getInstance();
 
         System.out.println("\nSecond reference: " + s);
         System.out.println("Singleton data value is: " + s.getData());
