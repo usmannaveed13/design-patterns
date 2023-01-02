@@ -1,7 +1,5 @@
 package creationalPatterns.singleton.singletonSynchronizedMethod;
 
-import creationalPatterns.singleton.singletonLazyEvaluation.SingletonLazyEvaluation;
-
 public class SingletonSynchronizedApproach {
     // the private reference to the one and only instance
     private static SingletonSynchronizedApproach uniqueInstance = null;
