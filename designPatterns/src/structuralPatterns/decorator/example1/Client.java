@@ -12,5 +12,13 @@ public class Client {
 
         cd_1.SetTheComponent(cc);
         cd_1.doJob();
+
+        ConcreteDecoratorEx_2 cd_2 = new ConcreteDecoratorEx_2();
+
+        // Decorating ConcreteComponent Object cc with ConcreteDecoratorEx_1 & ConcreteDecoratorEx_2
+        cd_2.SetTheComponent(cd_1); //Adding results from cd_1 now
+        cd_2.doJob();
+
+
     }
 }
